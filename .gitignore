@@ -1,5 +1,43 @@
-﻿bin/
+## === ARCHIVOS Y CARPETAS PRINCIPALES DE .NET ===
+# Binarios y compilados
+bin/
 obj/
+[Bb]in/
+[Oo]bj/
+out/
+
+# Archivos de publicación
+publish/
+
+## === ARCHIVOS DE ENTORNO Y CONFIGURACIÓN LOCAL ===
+# Visual Studio / Visual Studio Code
 .vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 *.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de caché y registros
 *.suo
+*.user
+*.userprefs
+*.log
+
+## === GESTORES DE PAQUETES ===
+# Paquetes NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+## === SISTEMA OPERATIVO ===
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini

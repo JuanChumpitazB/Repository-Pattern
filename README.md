@@ -6,17 +6,17 @@ Aplicación de consola en C# que implementa un repositorio en memoria para produ
 
 La solución contiene:
 
-- IProductoRepository
-- ProductoRepository
-- Producto
+- `IProductoRepository`
+- `ProductoRepository`
+- `Producto`
 
 El repositorio implementa las operaciones:
 
-- GetAll()
-- GetById()
-- Add()
-- Update()
-- Delete()
+- `GetAll()`
+- `GetById()`
+- `Add()`
+- `Update()`
+- `Delete()`
 
 El almacenamiento se realiza en memoria mediante una colección de productos; no se utiliza una base de datos.
 
@@ -34,8 +34,5 @@ Separar el acceso a datos de la lógica de negocio mediante una interfaz de repo
 
 Desde la carpeta del proyecto:
 
-`	ext
+```text
 dotnet run
-`
-
-La aplicación demuestra las operaciones de alta, consulta, actualización y eliminación de productos.
